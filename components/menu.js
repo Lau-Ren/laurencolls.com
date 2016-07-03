@@ -10,9 +10,10 @@ class Menu extends Component {
     return <menu className="menu">
       <nav className="menu-nav">
         <ul className="menu-nav-list">
-          <li>Résumé</li>
-          <li>Contact</li>
-          <li>Projects</li>
+          <li><a href="/">Resume</a></li>
+          <li><a href="mailto:colls.lauren@gmail.com?" target="_top">Contact</a></li>
+          <li><a href="https://github.com/Lau-Ren">Projects</a> </li>
+
         </ul>
         
       </nav>
