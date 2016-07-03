@@ -1,5 +1,7 @@
-# Object file
-*.o
+node_modules
+npm-debug.log*
 
-# Ada Library Information
-*.ali
+/bundle.js
+
+.DS_Store
+/dist
