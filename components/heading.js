@@ -7,9 +7,12 @@ class Heading extends Component {
   }
 
   render () {
-    return <h1>Welcome to {this.props.name}</h1>
+    return <div>
+      <h1>LAU</h1>
+      <h1>REN</h1>
+    </div>
   }
 
 }
 
-export default App
+export default Heading

@@ -7,9 +7,9 @@ class SubHeading extends Component {
   }
 
   render () {
-    return <h1>LAUREN</h1>
+    return <h2>Web developer for hire</h2>
   }
 
 }
 
-export default App
+export default SubHeading

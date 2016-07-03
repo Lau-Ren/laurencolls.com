@@ -8,16 +8,19 @@ class Menu extends Component {
 
   render () {
     return <div>
-      <Link />
-      <Link />
-      <Link />
-
-
+      <nav>
+        <ul>
+          <li>Résumé</li>
+          <li>Contact</li>
+          <li>Projects</li>
+        </ul>
+        
+      </nav>
 
 
     </div>
-
+  }
 
 }
 
-export default App
+export default Menu

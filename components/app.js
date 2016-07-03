@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import Heading from './heading'
+import Subheading from './sub-heading'
+import Menu from './menu'
 
 class App extends Component {
 
@@ -7,7 +10,11 @@ class App extends Component {
   }
 
   render () {
-    return <h1>Welcome to {this.props.name}</h1>
+    return <div>
+      <Heading />
+      <Subheading />
+      <Menu />
+    </div>
   }
 
 }
