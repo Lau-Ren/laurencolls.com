@@ -7,9 +7,9 @@ class Menu extends Component {
   }
 
   render () {
-    return <div>
-      <nav>
-        <ul>
+    return <menu className="menu">
+      <nav className="menu-nav">
+        <ul className="menu-nav-list">
           <li>Résumé</li>
           <li>Contact</li>
           <li>Projects</li>
@@ -18,7 +18,7 @@ class Menu extends Component {
       </nav>
 
 
-    </div>
+    </menu>
   }
 
 }

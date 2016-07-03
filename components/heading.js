@@ -7,10 +7,18 @@ class Heading extends Component {
   }
 
   render () {
+
     return <div>
-      <h1>LAU</h1>
-      <h1>REN</h1>
-    </div>
+      <header className="header" >
+        <div className="header-inner">
+          <div className="header-name">
+            <h1 className="header-side header-left">Lau</h1>
+            <h1 className="header-side header-left">Ren</h1>
+          </div>
+          
+        </div>  
+      </header>
+     </div> 
   }
 
 }
