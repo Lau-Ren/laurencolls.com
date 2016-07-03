@@ -1,7 +1,24 @@
+html {
+ 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: black;
+}
 main {
 
   font-family: "museo-sans",sans-serif;
   font-size: 56px;
+  color: white;
+  border: 10px solid white;
+  /*top: 16px;*/
+  top: 1rem;
+  height: calc(100vh - 2rem);
+  width: calc(100vw - 2rem);
 
 }
 
@@ -83,24 +100,6 @@ h1{
   bottom: 1rem;
   z-index: 1;
 
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-
 }
 
 .menu-nav{
@@ -111,5 +110,6 @@ h1{
   font-size: 3.5rem;
 }
 .menu-nav-list{
+  margin: 0 auto;
   list-style: none;
 }
