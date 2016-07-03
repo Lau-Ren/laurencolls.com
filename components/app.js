@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Heading from './heading'
 import Subheading from './sub-heading'
 import Menu from './menu'
+import Img from './img-profile'
 
 class App extends Component {
 
@@ -14,6 +15,7 @@ class App extends Component {
       <div className="app-inner">
         <Heading />
         <Subheading />
+       
         <Menu />
       </div>
     </div>

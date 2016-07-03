@@ -154,6 +154,12 @@ li > a:hover:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+.profile-img{
+  border: 10px solid rgb(255, 241, 234) ;
+  border-radius: 500px;
+  width: calc(50vw - 2rem);
+  max-width: 250px;
+}
 
 @media (max-width: 840px){
   .surplus-text {
@@ -168,11 +174,13 @@ li > a:hover:before {
     margin: 0px;
     text-align: center;
     font-size: 1rem;
+
   }
 
   .header-inner{
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
   }
 
   menu{
@@ -183,6 +191,16 @@ li > a:hover:before {
   .menu-nav-list{
     padding: 0;
     text-align: center;
+  }
+  .app-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .smiley{
+    position: relative;
+    text-align: center;
+   
+
   }
 }
 
