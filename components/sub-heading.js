@@ -7,7 +7,7 @@ class SubHeading extends Component {
   }
 
   render () {
-    return <h2 className="sub-heading">Web developer <span className="surplus-text"> for hire. </span></h2>
+    return <h2 className="sub-heading">Web developer <div className="surplus-text"> for hire. </div></h2>
   }
 
 }

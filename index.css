@@ -101,7 +101,15 @@ h1{
   z-index: 1;
 
 }
-
+ #menu-resume{
+  letter-spacing: 0.6px;
+ }
+ #menu-contact{
+  letter-spacing: 1.6px;
+ }
+ #menu-projects{
+  letter-spacing: -0.6px;
+ }
 .menu-nav{
   padding: 32px;
   padding: 2rem;
