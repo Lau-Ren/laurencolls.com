@@ -12,6 +12,7 @@ class App extends Component {
 
   render () {
     return <div className="app-container">
+
       <div className="app-inner">
         <Heading />
         <Subheading />
