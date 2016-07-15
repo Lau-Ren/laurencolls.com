@@ -213,8 +213,25 @@ li > a:hover:before {
    
 
   }
+
+}
+@media (max-height: 455px) {
+  .header-side {
+    font-size: 4rem;
+  }
+  li {
+    font-size: 2rem;
+  }
 }
 
+@media (max-height: 322px) {
+  .header-side {
+    font-size: 3rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+}
 
 
 
