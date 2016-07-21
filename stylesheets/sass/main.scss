@@ -1,0 +1,58 @@
+@import "base/variables";
+
+
+@import "components/menu";
+@import "components/heading";
+@import "components/subheading";
+@import "components/typography";
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: $dark-color;
+}
+.app-inner{
+
+ height: calc(100vh - 2rem);
+ background-color: $light-color;
+ background-image: url("../../images/background.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: 50% 30%;
+}
+
+main {
+
+  font-family: "museo-sans",sans-serif;
+  font-size: 56px;
+  color: $dark-color;
+  border: 10px solid $dark-color;
+  top: 1rem;
+  height: calc(100vh - 2rem);
+  width: calc(100vw - 2rem);
+
+}
+
+h1{
+  margin: 0 auto;
+}
+
+@media (max-width: 840px){}
+@media (max-width: 720px){
+  .app-inner {
+    background-position: 0%;
+  }
+  .app-inner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-height: 455px) {}
+@media (max-height: 322px) {
+}
+
+
+

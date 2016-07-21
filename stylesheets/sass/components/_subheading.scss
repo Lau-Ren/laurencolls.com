@@ -1,0 +1,36 @@
+.sub-heading {
+  position: absolute;
+  bottom: 16px;
+  bottom: 1rem;
+  padding: 32px;
+  padding: 2rem;
+  max-width: 600px;
+  z-index: 1;
+  font-size: 3.5rem;
+  margin: 0px;
+}
+
+ .surplus-text {
+   color: limegreen;
+  }
+
+@media (max-width: 840px){
+  .surplus-text {
+   display: none;
+   color: yellow;
+  }
+
+}
+
+@media (max-width: 720px){
+  .sub-heading {
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    font-size: 1rem;
+
+  }
+}
+@media (max-height: 455px) {}
+@media (max-height: 322px) {
+}
