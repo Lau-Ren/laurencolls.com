@@ -5,11 +5,11 @@ Personal website. Links to my resume, github, and contact
 
 
 ## Stack
--[ ] Sass
--[ ] React.js
--[ ] Budo
--[ ] Browserify
--[ ] Babel
+* Sass
+* React.js
+* Budo
+* Browserify
+* Babel
 
 
 ```
