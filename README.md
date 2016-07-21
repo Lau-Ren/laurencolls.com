@@ -1,16 +1,17 @@
 
 # laurencolls.com
 
-it's a real sweet app
+Personal website. Links to my resume, github, and contact
 
-## how
 
-### install
+## Stack
+-[ ] Sass
+-[ ] React.js
+-[ ] Budo
+-[ ] Browserify
+-[ ] Babel
 
-```
-git clone https://github.com/lau-ren/laurencolls.com
-cd 
-npm install
+
 ```
 
 ## develop
@@ -21,14 +22,3 @@ npm start
 
 browse to <http://localhost:9966/>.
 
-## test
-
-```
-npm test
-```
-
-## deploy
-
-```
-npm run deploy
-```

@@ -1,11 +1,8 @@
 @import "base/variables";
 
-
 @import "components/menu";
 @import "components/heading";
 @import "components/subheading";
-@import "components/typography";
-
 
 body {
   display: flex;
@@ -26,7 +23,7 @@ body {
 
 main {
 
-  font-family: "museo-sans",sans-serif;
+  font-family: $font-stack;
   font-size: 56px;
   color: $dark-color;
   border: 10px solid $dark-color;
@@ -51,8 +48,7 @@ h1{
   }
 }
 @media (max-height: 455px) {}
-@media (max-height: 322px) {
-}
+@media (max-height: 322px) {}
 
 
 

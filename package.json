@@ -41,10 +41,6 @@
   },
   "devDependencies": {
     "budo": "^8.2.0",
-    "gh-pages": "^0.11.0",
     "node-sass": "^3.8.0",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.5.1",
-    "watchify": "^3.7.0"
   }
 }

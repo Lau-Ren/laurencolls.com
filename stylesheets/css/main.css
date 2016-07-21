@@ -82,9 +82,6 @@ li > a:hover:before {
   pointer-events: none; }
 
 .header-inner {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -170,7 +167,7 @@ body {
   background-position: 50% 30%; }
 
 main {
-  font-family: "museo-sans",sans-serif;
+  font-family: "museo-sans", sans-serif;
   font-size: 56px;
   color: #030303;
   border: 10px solid #030303;
