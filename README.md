@@ -20,5 +20,9 @@ Personal website. Links to my resume, github, and contact
 npm start
 ```
 
-browse to <http://localhost:9966/>.
+browse to http://localhost:3000
 
+
+##Notes
+
+commits to master will automatically deploy to heroku
