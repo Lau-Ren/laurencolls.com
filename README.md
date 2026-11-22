@@ -1,28 +1,33 @@
-
 # laurencolls.com
 
-Personal website. Links to my resume, github, and contact
-
+Personal website. Links to my resume and contact.
 
 ## Stack
-* Sass
-* React.js
-* Budo
-* Browserify
-* Babel
 
+- Plain HTML and CSS (no build step)
+- GitHub Pages, custom domain `laurencolls.com` (see `CNAME`)
 
-```
-
-## develop
+## Develop
 
 ```
+npm install
 npm start
 ```
 
-browse to http://localhost:3000
+## Format
 
+```
+npm run format
+```
 
-##Notes
+## Deploy
 
-commits to master will automatically deploy to heroku
+Pushes to `master` run `.github/workflows/deploy.yml`, which checks formatting and publishes to GitHub Pages.
+
+In the repo settings, set Pages source to "GitHub Actions" and the custom domain to `laurencolls.com`.
+
+## Editing content
+
+- Text, links and meta tags: `index.html`
+- Styles and colours: `styles/main.css` (variables at the top)
+- Resume PDF: `images/`, then update the link in `index.html`
